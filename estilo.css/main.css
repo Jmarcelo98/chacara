@@ -55,16 +55,16 @@ a {
 }
 
 .carroselControleNext {
-    right: 2.2em;
-    top: 19em;
-    bottom: 19em;
-    width: 3em;
+    right: 8%;
+    top: 50%;
+    bottom: 50%;
+    width: 3%;
 }
 
 .carroselControlePrev {
-    left: 2.2em;
-    top: 19em;
-    bottom: 19em;
-    width: 3em
+    left: 8%;
+    top: 50%;
+    bottom: 50%;
+    width: 3%;
 }
 
