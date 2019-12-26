@@ -20,6 +20,14 @@ a {
     margin-top: 1em;
 }
 
+.corDoQuadradoCinza {
+    background-color:  rgb(252, 252, 252);
+}
+
+.corDoQuadradoBranco {
+    background-color:  rgb(255, 255, 255);
+}
+
 .cabecalho{
     position: sticky;
     box-shadow: 0 6px 2px -2px rgb(231, 231, 231);
@@ -44,5 +52,19 @@ a {
 
 .home {
     background-color: rgb(252, 252, 252);
+}
+
+.carroselControleNext {
+    right: 2.2em;
+    top: 19em;
+    bottom: 19em;
+    width: 3em;
+}
+
+.carroselControlePrev {
+    left: 2.2em;
+    top: 19em;
+    bottom: 19em;
+    width: 3em
 }
 
