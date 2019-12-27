@@ -7,16 +7,17 @@ img{
     width: 100%;
 }
 
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 a {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
-/* 
-'Times New Roman', Times, serif */
+
 
 h2 {
     font-size: 44px;
@@ -24,22 +25,12 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .tituloQuemSomosNosH3 {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: -12.5%;
 }
 
-.ajustandoEspacos {
-    margin-top: 2%;
-}
-
-.corDoCampoCinza {
-    background-color: rgb(250, 250, 250);
-}
-
-.corDoCampoBranco {
-    background-color:  rgb(255, 255, 255);
-}
 
 .cabecalho{
     position: sticky;
@@ -49,15 +40,41 @@ h2 {
     z-index: 999;
 }
 
-.linhaDaMoldura {
-    border: solid 1px rgb(231, 231, 231);
-    box-shadow: -5px 6px 2px -2px rgb(231, 231, 231);
+
+.home {
+    background-color: rgb(252, 252, 252);
+}
+
+
+.ajustandoEspacos {
+    margin-top: 4%;
+}
+
+
+.centralizar {
+    text-align: center;
+}
+
+
+.corDoCampoCinza {
+    background-color: rgb(250, 250, 250);
+}
+
+.corDoCampoBranco {
+    background-color:  rgb(255, 255, 255);
 }
 
 
 .molduraCor {
     padding: 20px;
     background-color: rgb(255, 255, 255);
+}
+
+
+/* 213, 236, 223 */
+.bordaDaMoldura {
+    border: solid 1px rgb(231, 231, 231);
+    box-shadow: -4px 4px 8px -4px rgb(213, 236, 223);
 }
 
 
@@ -68,34 +85,13 @@ h2 {
 }
 
 
-.centralizar {
-    text-align: center;
-}
-
-.home {
-    background-color: rgb(252, 252, 252);
-}
-
-.carroselControleNext {
-    right: 4%;
-    top: 50%;
-    bottom: 50%;
-    width: 3%;
-}
-
-.carroselControlePrev {
-    left: 4%;
-    top: 50%;
-    bottom: 50%;
-    width: 3%;
-}
-
 .estruturaTexto {
 
-    box-shadow: -5px 6px 20px 5px rgb(231, 231, 231);
+    box-shadow: -9px 11px 12px -6px rgb(213, 236, 223);
     background-color: rgb(252, 252, 252);
     padding: 10%;
 }
+
 
 .estruturaFotos {
 
@@ -104,6 +100,17 @@ h2 {
 }
 
 
+.carroselControleNext {
+    right: 4%;
+    top: 50%;
+    bottom: 50%;
+    width: 3%;
+}
 
 
-
+.carroselControlePrev {
+    left: 4%;
+    top: 50%;
+    bottom: 50%;
+    width: 3%;
+}
