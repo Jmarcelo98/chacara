@@ -21,6 +21,16 @@
 
 <body>
 
+    <!--GIF de carregamento da página-->
+    <div id="preloader">
+        <div class="inner">
+            <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+            <div>
+                Loading
+            </div>
+        </div>
+    </div>
+
     <!--Inicio cabeçalho -->
     <header id="home" class="cabecalho">
 
@@ -29,9 +39,11 @@
             <div class="container">
 
                 <!--Logo e a referência da logo para a index -->
-                <a class="navbar-brand" id="voltarHome">
+                <a class="navbar-brand" href="#inicio" id="logolink">
                     <img src="img/logo-nome.png" width="140">
                 </a>
+
+
 
                 <!-- Botão após a tela ficar menor, aparecer a navbar -->
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-principal">
@@ -44,7 +56,8 @@
 
                         <li class="nav-item">
                             <a class="nav-link" style="color: #9aba40;" href="#inicio" id="homelink">Home</a>
-                            <a class="nav-link" style="color: #9aba40;" href="#estrutura" id="estruturalink">Estrutura</a>
+                            <a class="nav-link" style="color: #9aba40;" href="#estrutura"
+                                id="estruturalink">Estrutura</a>
                             <a class="nav-link" style="color: #9aba40;" href="">Galeria</a>
                             <a class="nav-link" style="color: #9aba40;" href="">Contatos</a>
                         </li>
