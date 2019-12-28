@@ -124,22 +124,21 @@ a {
 
 
 .botaoModal {
-    box-shadow: 0 0px 5px 0px rgb(175, 174, 174);
+    box-shadow: 0 0px 5px 0px rgb(175, 174, 174, 0.5);
     background-color: #f1f1f1a1;
 }
 
 
 #preloader {
-    overflow-y: hidden;
-    overflow-x: hidden;
     position:fixed;
     top:0;
     left:0;
     right:0;
     bottom:0;
-    background-color:rgb(213, 236, 223); /* cor do background que vai ocupar o body */
+    background-color:rgb(213, 236, 223, 0.5); /* cor do background que vai ocupar o body */
     z-index:999; /* z-index para jogar para frente e sobrepor tudo */
 }
+
 
 #preloader .inner {
     overflow-x: hidden;
