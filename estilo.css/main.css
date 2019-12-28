@@ -23,17 +23,8 @@ a {
 }
 
 
-h2 {
-    font-size: 44px;
-    text-transform: none;   
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-.tituloQuemSomosNosH3 {
-   font-family: "Montserrat", sans-serif;
-   font-weight: 400;
-   padding: 0;
+.fonteParaH2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 
@@ -42,7 +33,7 @@ h2 {
     box-shadow: 0 6px 2px -2px rgb(231, 231, 231);
     width: 100%;
     top: 0;
-    z-index: 999;
+    z-index: 799;
 }
 
 
@@ -76,7 +67,6 @@ h2 {
 }
 
 
-/* 213, 236, 223 */
 .bordaDaMoldura {
     border: solid 1px rgb(231, 231, 231);
     box-shadow: -4px 4px 8px -4px rgb(213, 236, 223);
@@ -122,7 +112,26 @@ h2 {
     width: 3%;
 }
 
+
+.cabecalhoModal {
+    background-color: rgb(252, 252, 252);
+    margin-top: 45%;
+}
+
+.rodapeModal {
+    background-color: rgb(252, 252, 252);
+}
+
+
+.botaoModal {
+    box-shadow: 0 0px 5px 0px rgb(175, 174, 174);
+    background-color: #f1f1f1a1;
+}
+
+
 #preloader {
+    overflow-y: hidden;
+    overflow-x: hidden;
     position:fixed;
     top:0;
     left:0;
