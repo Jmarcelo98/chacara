@@ -23,7 +23,7 @@ a {
 }
 
 
-.fonteParaH2{
+.fonteParaHs{
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -115,7 +115,7 @@ a {
 
 .cabecalhoModal {
     background-color: rgb(252, 252, 252);
-    margin-top: 45%;
+    margin-top: 30%;
 }
 
 .rodapeModal {
@@ -124,9 +124,11 @@ a {
 
 
 .botaoModal {
-    box-shadow: 0 0px 5px 0px rgb(175, 174, 174, 0.5);
+    box-shadow: 0 0px 5px 0px rgb(175, 174, 174);
     background-color: #f1f1f1a1;
 }
+
+
 
 
 #preloader {

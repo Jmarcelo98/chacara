@@ -41,6 +41,16 @@ $('#estruturalink').click(function (e) {
     }, 500);
 });
 
+//ANCORA PARA GALERIA
+$('#galerialink').click(function (e) {
+    e.preventDefault();
+    var target = $('#galeria').offset().top;
+
+    $('html, body').animate({
+        scrollTop: target - 330
+    }, 500);
+});
+
 
 //GIF DE LOADING
 $(window).on('load', function () {
