@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="estilo.css/botaoVoltarAoTopo.css">
     <link rel="stylesheet" href="estilo.css/main.css">
     <link rel="stylesheet" href="estilo.css/w3/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <title>SEM NOME</title>
 
@@ -35,14 +36,14 @@
 
 
     <!--Inicio cabeçalho -->
-    <header id="home" class="cabecalho">
+    <header id="logoAncora" class="cabecalho">
 
         <!-- Criado a logo e o menu bar -->
         <nav class="navbar navbar-expand-sm navbar-light home cabecalho">
             <div class="container">
 
                 <!--Logo e a referência da logo para a index -->
-                <a class="navbar-brand" href="#inicio" id="logolink">
+                <a class="navbar-brand" href="#logoAncora" id="logolink">
                     <img src="img/logo-nome.png" width="140">
                 </a>
 
@@ -58,10 +59,10 @@
                     <ul class="navbar-nav ml-auto ">
 
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #9aba40;" href="#inicio" id="homelink">Home</a>
-                            <a class="nav-link" style="color: #9aba40;" href="#estrutura"
+                            <a class="nav-link" style="color: #9aba40;" href="#quemSomosNos" id="quemSomosNoslink">Quem somos nós</a>
+                            <a class="nav-link" style="color: #9aba40;" href="#estruturaMenu"
                                 id="estruturalink">Estrutura</a>
-                            <a class="nav-link" style="color: #9aba40;" href="#galeria" id="galerialink">Galeria</a>
+                            <a class="nav-link" style="color: #9aba40;" href="#galeriaMenu" id="galerialink">Galeria</a>
                             <a class="nav-link" style="color: #9aba40;" href="">Contatos</a>
                         </li>
 
@@ -78,7 +79,11 @@
 
 
     <!--Inicio de Quem Somos Nós-->
-    <section id="inicio">
+      <!-- <button class="voltarAoTopo" style="z-index: 4443; position: fixed;">
+            oi
+        </button> -->
+    <section id="quemSomosNos">
+        
         <div class="container centralizar ajustandoEspacos">
 
             <div class="ajustandoEspacos">
@@ -88,7 +93,11 @@
                     <div class="col-md-4">
                         <div class="bordaDaMoldura">
                             <div class="quadradoQuemSomosNos" style="margin-top: 13%;">
-                                <h3 class="fonteParaHs">Quem somos nós </h3>
+                                <h3 class="fonteParaHs">
+                                    <a href="#quemSomosNos">
+                                        Quem somos nós
+                                    </a>
+                                </h3>
                                 <br>
                                 <p>Aqui vai algum texto</p>
                                 <p>Aqui também</p>
@@ -149,7 +158,7 @@
     <!-- Fim do Carrosel-->
 
 
-    <section id="estrutura">
+    <section id="estruturaMenu">
         <!--Estrutura da chácara, ocupando a primeira linha -->
         <div class="container ajustandoEspacos">
 
@@ -217,7 +226,7 @@
 
 
                 <!--Modal galeria-->
-                <section id="galeria">
+                <section id="galeriaMenu">
                     <div class="container centralizar ajustandoEspacos">
                         <div id="modalGaleria" class="w3-modal">
                             <div class="w3-modal-content w3-card-4 w3-animate-zoom">
@@ -235,7 +244,7 @@
                                 </div>
 
                                 <!--Conteudo do Modal-->
-                                <div class="d-flex justify-content-around">
+                                <div class="d-flex justify-content-around ajustandoEspacos">
 
                                     <div>
                                         das
@@ -253,13 +262,15 @@
                                 <div class="container w3-padding">
 
                                     <!--Botão de FECHAR, inferior direito-->
-                                    <div class="w3-container ">
-                                        <div class="d-flex justify-content-end">
-                                            <button class="btn btn-dark botaoModal w3-light-grey"
-                                                onclick="document.getElementById('modalGaleria').style.display='none'">Fechar
-                                            </button>
-                                        </div>
+                                    <div class="modal-footer ajustandoEspacos">
+                                        <div class="w3-container ">
+                                            <div class="d-flex justify-content-end">
+                                                <button class="btn btn-light botaoModal w3-light-grey"
+                                                    onclick="document.getElementById('modalGaleria').style.display='none'">Fechar
+                                                </button>
+                                            </div>
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -303,11 +314,12 @@
 
 
     <!--Botão para voltar ao topo-->
-    <div id="voltarTopo" class="hide">
-        <a href="#" id="subir">
-            <img src="icones/seta-voltar-ao-topo.png">
-        </a>
-    </div>
+    <!-- <button onclick="topoFuncao()" id="voltarAoTopo" title="Go to top">Top</button> -->
+    <button id="btVoltar" class="voltarAoTopo">
+        das
+    </button>
+
+
 
 
     <!-- JavaScript (Opcional) -->

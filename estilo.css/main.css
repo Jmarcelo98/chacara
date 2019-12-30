@@ -18,6 +18,22 @@ a {
     font-weight: bold;
 }
 
+
+#voltarAoTopo {
+  font-size: 5rem;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  color: #9aba40;
+  opacity: 75%;
+  transition: all 0.5s;
+  cursor: pointer;
+  }
+
+#voltarAoTopo:hover{
+    background-color: rgb(231, 231, 231);
+}
+
 .nav-item a{
     display: inline-block;
 }
@@ -127,7 +143,6 @@ a {
     box-shadow: 0 0px 5px 0px rgb(175, 174, 174);
     background-color: #f1f1f1a1;
 }
-
 
 
 
