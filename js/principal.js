@@ -60,81 +60,21 @@ $(window).on('load', function () {
 })
 
 
+var mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-function backToTop() {
-    //BACK TO TOP APARECE COM SCROLL
-    $(window).on('scroll', function () {
-        var wintop = $(this).scrollTop();
-
-        if (wintop >= $('#inicioDoTopo').offset().top) {
-            $('#botaoVoltarAoTopo').fadeIn("slow");
-        } else {
-            $('#botaoVoltarAoTopo').fadeOut("slow");
-        }
-    })
-
-    //VOLTA PRO TOPO AO CLIQUE
-    $('#botaoVoltarAoTopo').click(function () {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 600);
-    })
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
 
-
-
-
-
-// //PEGAR O BOTÃO
-// var bottaoTopo = document.getElementById("botaoVoltarAoTopo");
-
-
-// //APARECER O BOTÃO AO ROLAR SCROLL
-// window.onscroll = function () {
-//     scrollFunction()
-// };
-// function scrollFunction() {
-//     if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-//         bottaoTopo.style.display = "block";
-//     } else {
-//         bottaoTopo.style.display = "none";
-//     }
-// }
-
-
-// $('#botaoVoltarAoTopo').click(function (e) {
-//     e.preventDefault();
-//     var target = $('#inicioTopo').offset().top;
-
-//     $('html, body').animate({
-//         scrollTop: target - 200
-//     }, 500);
-// });
-
-
-// //PEGAR O BOTÃO
-// var bottaoTopo = document.getElementById("voltarAoTopo");
-
-
-// //APARECER O BOTÃO AO ROLAR SCROLL
-// window.onscroll = function () {
-//     scrollFunction()
-// };
-// function scrollFunction() {
-//     if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-//         bottaoTopo.style.display = "block";
-//     } else {
-//         bottaoTopo.style.display = "none";
-//     }
-// }
-
-// //VOLTAR AO TOPO AO CLICAR NO BOTÃO
-// function topoFuncao() {
-//     document.body.scrollTop = 0; // SAFARI
-//     document.documentElement.scrollTop = 0; //CHROME, FIREFOX, EI e OPERA
-// }
-
-
-
-
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
