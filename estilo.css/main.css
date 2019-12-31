@@ -13,10 +13,12 @@ p {
 }
 
 
-a {
+li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
+
+
 
 
 #myBtn {
@@ -38,6 +40,7 @@ a {
   #myBtn:hover {
     background-color: #555;
   }
+
 
 .nav-item a{
     display: inline-block;
