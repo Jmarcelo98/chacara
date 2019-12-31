@@ -64,8 +64,21 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+//RETORNA AO TOPO DA PÁGINA
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+//AO CLICAR NO BOTÃO DO MODAL, IMPEDIR O USO DO SCROLL   
+$("#botaoGaleria").click(function(){
+
+    $("#modal").show();
+    $("html,body").css({"overflow":"hidden"});
+})
+
+//AO CLICAR EM QUALQUER OPÇÃO PARA FECHAR, REAPARECER BARRA SCROLL ATRÁS E USO PERMITIDO
+$("#fecharInferior, #fecharSuperior").click(function(){
+    $("#modal").hide();
+    $("html,body").css({"overflow":"auto"});
+});

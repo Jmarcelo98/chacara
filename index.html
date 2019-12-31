@@ -60,13 +60,15 @@
                     <ul class="navbar-nav ml-auto ">
 
                         <li class="nav-item">
-                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#quemSomosNos" id="quemSomosNoslink">Quem
+                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#quemSomosNos"
+                                id="quemSomosNoslink">Quem
                                 somos nós</a>
 
                             <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#estruturaMenu"
                                 id="estruturalink">Estrutura</a>
 
-                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#galeriaMenu" id="galerialink">Galeria</a>
+                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#galeriaMenu"
+                                id="galerialink">Galeria</a>
 
                             <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="">Contatos</a>
                         </li>
@@ -222,7 +224,7 @@
 
                 <!--Botão GALERIA-->
                 <div class="container centralizar ajustandoEspacos">
-                    <button onclick="document.getElementById('modalGaleria').style.display='block'"
+                    <button id="botaoGaleria" onclick="document.getElementById('modalGaleria').style.display='block'"
                         class="btn btn-light botaoModal">
                         <b> Galeria </b>
 
@@ -241,7 +243,7 @@
                                     <h4 class="fonteParaH2">Galeria de Fotos</h4>
 
                                     <!-- Botão de FECHAR, superior direito -->
-                                    <button type="button" class="close" aria-label="Fechar">
+                                    <button id="fecharSuperior" type="button" class="close" aria-label="Fechar">
                                         <span onclick="document.getElementById('modalGaleria').style.display='none' "
                                             aria-hidden="true">&times;</span>
                                     </button>
@@ -249,19 +251,24 @@
                                 </div>
 
                                 <!--Conteudo do Modal-->
-                                <div class="d-flex justify-content-around ajustandoEspacos">
+                                <div>
 
-                                    <div>
-                                        das
-                                    </div>
-                                    <div>
-                                        das
-                                    </div>
-                                    <div>
-                                        das
+                                    <div class="d-flex justify-content-around ajustandoEspacos">
+
+                                        <div>
+                                            das
+                                        </div>
+                                        <div>
+                                            das
+                                        </div>
+                                        <div>
+                                            das
+                                        </div>
+
                                     </div>
 
                                 </div>
+
 
 
                                 <div class="container w3-padding">
@@ -270,7 +277,7 @@
                                     <div class="modal-footer ajustandoEspacos">
                                         <div class="w3-container ">
                                             <div class="d-flex justify-content-end">
-                                                <button class="btn btn-light botaoModal w3-light-grey"
+                                                <button id="fecharInferior" class="btn btn-light botaoModal w3-light-grey"
                                                     onclick="document.getElementById('modalGaleria').style.display='none'">Fechar
                                                 </button>
                                             </div>
@@ -295,8 +302,8 @@
 
     <!--Botão para voltar ao topo-->
     <div class="container ">
-        <button onclick="topFunction()" id="myBtn" class="hvr-float-shadow" >
-            <img  src="icones/seta-topo.png" alt="Voltar ao topo da página">
+        <button onclick="topFunction()" id="myBtn" class="hvr-float-shadow">
+            <img src="icones/seta-topo.png" alt="Voltar ao topo da página">
         </button>
     </div>
 
