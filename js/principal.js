@@ -1,14 +1,3 @@
-//VOLTAR AO TOPO
-$(window).on('scroll', function () {
-    var wintop = $(this).scrollTop();
-
-    if (wintop >= $('#inicioDoTopo').offset().top) {
-        $('#btVoltar').fadeIn("slow");
-    } else {
-        $('#btVoltar').fadeOut("slow");
-    }
-})
-
 //ANCORA PARA LOGO
 $('#logolink').click(function (e) {
     e.preventDefault();
@@ -60,13 +49,15 @@ $(window).on('load', function () {
 })
 
 
+
+//PEGAR VARIAVEL
 var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+//MOSTRA BOTÃO APÓS ROLAR O SCROLL
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 530 || document.documentElement.scrollTop > 530) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
