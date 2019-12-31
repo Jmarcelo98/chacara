@@ -26,7 +26,7 @@ $('#estruturalink').click(function (e) {
     var target = $('#estruturaMenu').offset().top;
 
     $('html, body').animate({
-        scrollTop: target - 100
+        scrollTop: target - 125
     }, 500);
 });
 
@@ -36,7 +36,7 @@ $('#galerialink').click(function (e) {
     var target = $('#galeriaMenu').offset().top;
 
     $('html, body').animate({
-        scrollTop: target - 330
+        scrollTop: target - 270
     }, 500);
 });
 
@@ -50,7 +50,7 @@ $(window).on('load', function () {
 
 
 
-//PEGAR VARIAVEL
+//PEGAR O BOTÃO
 var mybutton = document.getElementById("myBtn");
 
 //MOSTRA BOTÃO APÓS ROLAR O SCROLL
