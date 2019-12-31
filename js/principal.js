@@ -80,5 +80,5 @@ $("#botaoGaleria").click(function(){
 //AO CLICAR EM QUALQUER OPÇÃO PARA FECHAR, REAPARECER BARRA SCROLL ATRÁS E USO PERMITIDO
 $("#fecharInferior, #fecharSuperior").click(function(){
     $("#modal").hide();
-    $("html,body").css({"overflow":"auto"});
+    $("html,body").css({"overflow":"visible"});
 });
