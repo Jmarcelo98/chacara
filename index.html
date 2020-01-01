@@ -58,20 +58,24 @@
                 <div class="collapse navbar-collapse" id="navbar-principal">
                     <ul class="navbar-nav ml-auto ">
 
+
                         <li class="nav-item">
+                            <!--Quem somos nós-->
                             <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#quemSomosNos"
                                 id="quemSomosNoslink">Quem
                                 somos nós</a>
 
+                            <!--Estrutura-->
                             <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#estruturaMenu"
                                 id="estruturalink">Estrutura</a>
 
+                            <!--Galeria-->
                             <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#galeriaMenu"
                                 id="galerialink">Galeria</a>
 
-                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="">Contatos</a>
+                            <!--Contato-->
+                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="">Contato</a>
                         </li>
-
 
                     </ul>
 
@@ -85,9 +89,6 @@
 
 
     <!--Inicio de Quem Somos Nós-->
-    <!-- <button class="voltarAoTopo" style="z-index: 4443; position: fixed;">
-            oi
-        </button> -->
     <section id="quemSomosNos">
 
         <div class="container centralizar ajustandoEspacos">
@@ -98,6 +99,7 @@
 
                     <div class="col-md-4">
                         <div class="bordaDaMoldura">
+                            <!--Campo de Quem somos nós para digitar algum texto-->
                             <div class="quadradoQuemSomosNos" style="margin-top: 13%;">
                                 <h3 class="fonteParaHs">
                                     <a href="#quemSomosNos">
@@ -112,7 +114,7 @@
                         </div>
 
                     </div>
-                    <!--Inicio de Quem Somos Nós-->
+                    <!--Inicio de Quem Somos Nós (carrosel)-->
 
 
                     <!-- Inicio do Carrosel -->
@@ -164,8 +166,9 @@
     <!-- Fim do Carrosel-->
 
 
+    <!--Estrutura da chácara, ocupando a primeira linha -->
     <section id="estruturaMenu">
-        <!--Estrutura da chácara, ocupando a primeira linha -->
+
         <div class="container ajustandoEspacos">
 
             <h2 class="centralizar fonteParaHs">Estrutura </h2>
@@ -200,7 +203,7 @@
                 </div>
                 <!--Fim da estrutura da chácara, ocupando a segunda linha-->
 
-                <!--Estrutura da chácara-->
+                <!--Estrutura da chácara, ocupando a terceira linha-->
                 <div class="container ajustandoEspacos">
                     <div class="d-flex justify-content-around">
 
@@ -214,101 +217,101 @@
 
                     </div>
                 </div>
-                <!--Fim da estrutura da chácara, ocupando a terceira linha-->
+    </section>
+    <!--Fim da estrutura da chácara, ocupando a terceira linha-->
 
 
-                <h2 class="centralizar ajustandoEspacos container fonteParaHs">Clique no botão abaixo para acessar a
-                    galeria</h2>
+    <h2 class="centralizar ajustandoEspacos container fonteParaHs">Clique no botão abaixo para acessar a
+        galeria</h2>
 
 
-                <!--Botão GALERIA-->
-                <div class="container centralizar ajustandoEspacos">
-                    <button id="botaoGaleria" onclick="document.getElementById('modalGaleria').style.display='block'"
-                        class="btn btn-light botaoModal">
-                        <b> Galeria </b>
+    <!--Botão GALERIA-->
+    <div class="container centralizar ajustandoEspacos">
 
-                    </button>
-                </div>
+        <button id="botaoGaleria" onclick="document.getElementById('modalGaleria').style.display='block'"
+            class="btn btn-light botaoModal">
 
+            <b> Galeria </b>
 
-                <!--Modal galeria-->
-                <section id="galeriaMenu">
-                    <div class="container centralizar ajustandoEspacos">
-                        <div id="modalGaleria" class="w3-modal">
-                            <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+        </button>
 
-                                <!--Cabecalho do Modal com Bootstrap-->
-                                <div class="modal-header cabecalhoModal">
-                                    <h4 class="fonteParaH2">Galeria de Fotos</h4>
-
-                                    <!-- Botão de FECHAR, superior direito -->
-                                    <button id="fecharSuperior" type="button" class="close" aria-label="Fechar">
-                                        <span onclick="document.getElementById('modalGaleria').style.display='none' "
-                                            aria-hidden="true">&times;</span>
-                                    </button>
-
-                                </div>
-
-                                <!--Conteudo do Modal-->
-                                <div>
-
-                                    <div class="d-flex justify-content-around ajustandoEspacos">
-
-                                        <div>
-                                            das
-                                        </div>
-                                        <div>
-                                            das
-                                        </div>
-                                        <div>
-                                            das
-                                        </div>
-
-                                    </div>
-
-                                    <div class="d-flex justify-content-around ajustandoEspacos">
-
-                                        <div>
-                                            das
-                                        </div>
-                                        <div>
-                                            das
-                                        </div>
-                                        <div>
-                                            das
-                                        </div>
-
-                                    </div>
-
-                                    
-
-                                </div>
+    </div>
 
 
+    <!--Modal galeria-->
+    <section id="galeriaMenu">
+        <div class="container centralizar ajustandoEspacos">
+            <div id="modalGaleria" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-zoom">
 
-                                <div class="container w3-padding">
+                    <!--Cabecalho do Modal com Bootstrap-->
+                    <div class="modal-header cabecalhoModal">
+                        <h4 class="fonteParaH2">Galeria de Fotos</h4>
 
-                                    <!--Botão de FECHAR, inferior direito-->
-                                    <div class="modal-footer ajustandoEspacos">
-                                        <div class="w3-container ">
-                                            <div class="d-flex justify-content-end">
-                                                <button id="fecharInferior" class="btn btn-light botaoModal w3-light-grey"
-                                                    onclick="document.getElementById('modalGaleria').style.display='none'">Fechar
-                                                </button>
-                                            </div>
+                        <!-- Botão de FECHAR, superior direito -->
+                        <button id="fecharSuperior" type="button" class="close" aria-label="Fechar">
+                            <span onclick="document.getElementById('modalGaleria').style.display='none' "
+                                aria-hidden="true">&times;</span>
+                        </button>
 
-                                        </div>
-                                    </div>
-                                </div>
+                    </div>
+
+                    <!--Conteudo do Modal-->
+                    <div>
+
+                        <div class="d-flex justify-content-around ajustandoEspacos">
+
+                            <div>
+                                das
                             </div>
+                            <div>
+                                das
+                            </div>
+                            <div>
+                                das
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex justify-content-around ajustandoEspacos">
+
+                            <div>
+                                das
+                            </div>
+                            <div>
+                                das
+                            </div>
+                            <div>
+                                das
+                            </div>
+
                         </div>
 
 
 
+                    </div>
 
+
+
+                    <div class="container w3-padding">
+
+                        <!--Botão de FECHAR, inferior direito-->
+                        <div class="modal-footer ajustandoEspacos">
+                            <div class="w3-container ">
+                                <div class="d-flex justify-content-end">
+                                    <button id="fecharInferior" class="btn btn-light botaoModal w3-light-grey"
+                                        onclick="document.getElementById('modalGaleria').style.display='none'">Fechar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
+                </div>
             </div>
+        </div>
+        <!--Fim do Modal galeria-->
+
 
     </section>
 
