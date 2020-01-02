@@ -26,7 +26,7 @@ $('#estruturalink').click(function (e) {
     var target = $('#estruturaMenu').offset().top;
 
     $('html, body').animate({
-        scrollTop: target - 125
+        scrollTop: target - 135
     }, 500);
 });
 
@@ -36,7 +36,7 @@ $('#galerialink').click(function (e) {
     var target = $('#galeriaMenu').offset().top;
 
     $('html, body').animate({
-        scrollTop: target - 270
+        scrollTop: target - 210
     }, 500);
 });
 
@@ -47,6 +47,7 @@ $(window).on('load', function () {
     $('#preloader').delay(350).fadeOut('slow');
     $('body').delay(350).css({ 'overflow': 'visible' });
 })
+
 
 
 
@@ -66,9 +67,12 @@ function scrollFunction() {
 
 //RETORNA AO TOPO DA PÁGINA
 function topFunction() {
+    
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
 
 //AO CLICAR NO BOTÃO DO MODAL, IMPEDIR O USO DO SCROLL   
 $("#botaoGaleria").click(function(){

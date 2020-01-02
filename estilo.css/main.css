@@ -14,11 +14,14 @@ p {
 
 
 li, a {
+    font-size: 17px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }
 
-
+.linhaDivisoraDoMenu {
+    color: #F5A236;
+}
 
 
 #myBtn {
@@ -41,6 +44,11 @@ li, a {
 
 .nav-item a{
     display: inline-block;
+}
+
+
+.fonteParaBotaoGaleria {
+    font-size: 18px;
 }
 
 
