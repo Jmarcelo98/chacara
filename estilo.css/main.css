@@ -19,6 +19,8 @@ li, a {
     font-weight: bold;
 }
 
+
+
 .linhaDivisoraDoMenu {
     color: #F5A236;
 }
@@ -157,14 +159,13 @@ li, a {
 }
 
 
-
 #preloader {
     position:fixed;
     top:0;
     left:0;
     right:0;
     bottom:0;
-    background-color:rgb(213, 236, 223, 0.5); /* cor do background que vai ocupar o body */
+    background-color:rgba(213, 236, 223, 0.5); /* cor do background que vai ocupar o body */
     z-index:999; /* z-index para jogar para frente e sobrepor tudo */
 }
 
@@ -176,3 +177,29 @@ li, a {
     left: 50%;
     transform: translate(-50%, -50%);  
 }
+
+
+
+.type-automatizador li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .type-automatizador ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0 30px 0;
+    padding: 0;
+  }
+  
+  .type-automatizador a:hover {
+    text-decoration: none;
+    color: #ff8f4e;
+  }
+  
+  .type-automatizador a {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 600;
+  }

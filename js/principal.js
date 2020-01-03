@@ -1,3 +1,7 @@
+$('.pagination a').click(function (e) {
+    e.preventDefault();
+});
+
 //ANCORA PARA LOGO
 $('#logolink').click(function (e) {
     e.preventDefault();
@@ -41,6 +45,7 @@ $('#galerialink').click(function (e) {
 });
 
 
+
 //GIF DE LOADING
 $(window).on('load', function () {
     $('#preloader .inner').fadeOut();
@@ -65,12 +70,16 @@ function scrollFunction() {
   }
 }
 
+$('#myBtn').click(topFunction());
+
+
 //RETORNA AO TOPO DA PÁGINA
 function topFunction() {
-    
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+    $('html, body').animate({
+        scrollTop: 0
+    }, 500);
 }
+
 
 
 
@@ -81,8 +90,20 @@ $("#botaoGaleria").click(function(){
     $("html,body").css({"overflow":"hidden"});
 })
 
+
 //AO CLICAR EM QUALQUER OPÇÃO PARA FECHAR, REAPARECER BARRA SCROLL ATRÁS E USO PERMITIDO
 $("#fecharInferior, #fecharSuperior").click(function(){
     $("#modal").hide();
     $("html,body").css({"overflow":"visible"});
 });
+
+
+
+
+
+function abaDeFotos() {
+
+    
+
+
+}
