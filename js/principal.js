@@ -30,7 +30,7 @@ $('#estruturalink').click(function (e) {
     var target = $('#estruturaMenu').offset().top;
 
     $('html, body').animate({
-        scrollTop: target - 135
+        scrollTop: target - 165
     }, 500);
 });
 
@@ -40,9 +40,20 @@ $('#galerialink').click(function (e) {
     var target = $('#galeriaMenu').offset().top;
 
     $('html, body').animate({
-        scrollTop: target - 210
+        scrollTop: target - 253
     }, 500);
 });
+
+//ANCORA PARA CONTATO
+$('#contatolink').click(function (e) {
+    e.preventDefault();
+    var target = $('#contatoMenu').offset().top;
+
+    $('html, body').animate({
+        scrollTop: target - 165
+    }, 500);
+});
+
 
 
 
@@ -60,14 +71,14 @@ $(window).on('load', function () {
 var mybutton = document.getElementById("myBtn");
 
 //MOSTRA BOTÃO APÓS ROLAR O SCROLL
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 530 || document.documentElement.scrollTop > 530) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+    if (document.body.scrollTop > 530 || document.documentElement.scrollTop > 530) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
 }
 
 $('#myBtn').click(topFunction());
@@ -84,26 +95,17 @@ function topFunction() {
 
 
 //AO CLICAR NO BOTÃO DO MODAL, IMPEDIR O USO DO SCROLL   
-$("#botaoGaleria").click(function(){
+$("#botaoGaleria").click(function () {
 
     $("#modal").show();
-    $("html,body").css({"overflow":"hidden"});
+    $("html,body").css({ "overflow": "hidden" });
 })
 
 
 //AO CLICAR EM QUALQUER OPÇÃO PARA FECHAR, REAPARECER BARRA SCROLL ATRÁS E USO PERMITIDO
-$("#fecharInferior, #fecharSuperior").click(function(){
+$("#fecharInferior, #fecharSuperior").click(function () {
     $("#modal").hide();
-    $("html,body").css({"overflow":"visible"});
+    $("html,body").css({ "overflow": "visible" });
 });
 
 
-
-
-
-function abaDeFotos() {
-
-    
-
-
-}
