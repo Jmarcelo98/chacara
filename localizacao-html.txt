@@ -1,5 +1,4 @@
-<iframe src="https://www.google.com/maps/embed?pb=!4v1576788091944!6m8!1m7!1sfeufXV2Hk_dO_FMHmmaY0Q!2m2!1d-15.67802863594888!2d-47.68032028117024!3f20.25647339413849!4f0!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
+<iframe src="https://www.google.com/maps/embed?pb=!4v1578429616065!6m8!1m7!1szhZjFgl45J1q0xNklHJlow!2m2!1d-15.67836734360659!2d-47.68055982520335!3f43.112070939507845!4f-1.677578772083109!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 https://www.chacaradfverde.com.br/
 http://www.chacarashekinah.com.br/Galeria

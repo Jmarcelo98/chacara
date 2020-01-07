@@ -54,6 +54,16 @@ $('#contatolink').click(function (e) {
     }, 500);
 });
 
+//ANCORA PARA LOCALIZAÇÃO
+$('#localizacaolink').click(function (e) {
+    e.preventDefault();
+    var target = $('#localizacaoMenu').offset().top;
+
+    $('html, body').animate({
+        scrollTop: target - 165
+    }, 500);
+});
+
 
 
 

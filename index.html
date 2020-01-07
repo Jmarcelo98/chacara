@@ -76,6 +76,11 @@
                                 id="galerialink">Galeria</a>
                             <span class="linhaDivisoraDoMenu">|</span>
 
+                            <!--Localização-->
+                            <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#localizacaoMenu"
+                                id="localizacaolink">Localização</a>
+                            <span class="linhaDivisoraDoMenu">|</span>
+
                             <!--Contato-->
                             <a class="nav-link hvr-float-shadow" style="color: #9aba40;" href="#contatoMenu"
                                 id="contatolink">Contato</a>
@@ -306,45 +311,64 @@
 
                             </div>
 
-
-
-
                         </div>
 
-
                     </div>
-
-
-
-
-
-
-
                     <!-- Fim do conteudo do modal -->
 
 
+                    <!--Botão de FECHAR, inferior direito-->
+                    <div class="modal-footer ajustandoEspacos">
 
+                        <div class="w3-container ">
+                            <div class="d-flex justify-content-end">
 
-                    <div class="container w3-padding">
+                                <button id="fecharInferior" class="btn btn-light botaoModal w3-light-grey"
+                                    onclick="document.getElementById('modalGaleria').style.display='none'">
+                                    Fechar
+                                </button>
 
-                        <!--Botão de FECHAR, inferior direito-->
-                        <div class="modal-footer ajustandoEspacos">
-                            <div class="w3-container ">
-                                <div class="d-flex justify-content-end">
-                                    <button id="fecharInferior" class="btn btn-light botaoModal w3-light-grey"
-                                        onclick="document.getElementById('modalGaleria').style.display='none'">Fechar
-                                    </button>
-                                </div>
                             </div>
+
                         </div>
 
                     </div>
+
                 </div>
+
             </div>
+
         </div>
-        <!--Fim do Modal galeria-->
+
+        </div>
 
     </section>
+    <!--Fim do Modal galeria-->
+
+
+
+    <!-- Inicio da localização/ Google Maps-->
+    <section id="localizacaoMenu">
+
+        <div class="container">
+
+            <div class="ajustandoEspacos">
+
+                <!--Google map-->
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!4v1578430981928!6m8!1m7!1szhZjFgl45J1q0xNklHJlow!2m2!1d-15.67836734360659!2d-47.68055982520335!3f48.635278816865394!4f-30.75192177323172!5f0.7820865974627469"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Fim da localização -->
+
 
 
 
